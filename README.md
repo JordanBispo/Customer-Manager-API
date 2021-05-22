@@ -122,7 +122,7 @@ The url must contain as parameter the ID of the custumer who will have list of h
 Body Example:
 ```javascript
 {
-    "list": [
+    "healthProblems": [
         {
             "name": "health problem name", // String
             "degree": 1 // Number - [Min 1, Max 10]
