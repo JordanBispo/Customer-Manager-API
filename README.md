@@ -3,7 +3,7 @@
 A simple rest API to manage customer, this API: register new customer; Search for a specific customer; List all customer.
 One version was programmed using Node.js (in 'With Node.js and MongoDB' folder) and another using Spring (in 'With Spring, Kotlin and MongoBD' folder), but both have the same functioning.
 
-![image]({https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black})
+![image]({"https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"})
 
 ## Author
 <a href="https://jordanbispo.com.br">Jordan Rodrigo Souza Bispo</a>
