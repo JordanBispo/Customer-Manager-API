@@ -1,0 +1,26 @@
+{
+  "name": "customer_manager_api",
+  "version": "0.1.0",
+  "description": "A simple API for managing customers, made with Node.js and Mongoose ",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon ./src/server.js",
+    "start": "node ./src/server.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Jordan R.S. Bispo",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.8"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.8",
+    "@babel/preset-env": "^7.13.8",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3",
+    "nodemon": "^2.0.6"
+  }
+}

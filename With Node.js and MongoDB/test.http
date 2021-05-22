@@ -1,0 +1,70 @@
+### Register new customer
+POST http://localhost:4000/api/newCustomer
+Content-Type: application/json
+
+{
+    "name" : "Severino da Silva",
+    "birth": "1985-05-20",
+    "sex" : "male",
+    "healthProblems": [
+        {
+            "name": "Leucemia",
+            "degree": 7
+        }
+    ]
+}
+
+### get customers 
+# if the name/birth is not given will be returned a list of all customers
+GET http://localhost:4000/api/getCustomer?name=Severino da Silva&birth=1985-05-20
+
+
+### edit Customer
+# exchange the costumer of the query for the one of the body
+PUT http://localhost:4000/api/editCustomer?name=Severino da Silva&birth=1985-05-20
+Content-Type: application/json
+
+{
+    "name" : "Severino da Costa",
+    "birth": "1985-05-25",
+    "sex" : "male",
+    "healthProblems": [
+        {
+            "name": "Hipertensao",
+            "degree": 7
+        },
+        {
+            "name": "Leucemia",
+            "degree": 2
+        }
+    ]
+}
+
+### add/remove a specific customer's health problem
+# send customer ID in URL paht and List of healhealth problem in body of request
+# if the customer with that ID contains anyone from the list below, it will be removed, 
+# else, it will be added to the list of health problems.
+PATCH  http://localhost:4000/api/ECHP?id=60a5beb421010174ae57a66e
+Content-Type: application/json
+
+{
+    "healthProblems": [
+        {
+            "name": "Asma",
+            "degree": 2
+        },
+        {
+            "name": "Diabete",
+            "degree": 2
+        },
+        {
+            "name": "Hipertensao",
+            "degree": 2
+        },
+        {
+            "name": "Miopia",
+            "degree": 1
+        }
+    ]
+}
+
