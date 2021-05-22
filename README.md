@@ -3,7 +3,11 @@
 A simple rest API to manage customer, this API: register new customer; Search for a specific customer; List all customer.
 One version was programmed using Node.js (in 'With Node.js and MongoDB' folder) and another using Spring (in 'With Spring, Kotlin and MongoBD' folder), but both have the same functioning.
 
-![image](https://img.shields.io/github/license/JordanBispo/Customer-Manager-API)
+![](https://img.shields.io/github/license/JordanBispo/Customer-Manager-API)
+![](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![](https://img.shields.io/badge/Kotlin-0095D5?&style=for-the-badge&logo=kotlin&logoColor=white)
+![](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 
 ## Author
 <a href="https://jordanbispo.com.br">Jordan Rodrigo Souza Bispo</a>
