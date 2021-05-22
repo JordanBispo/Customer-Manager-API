@@ -3,11 +3,13 @@
 A simple rest API to manage customer, this API: register new customer; Search for a specific customer; List all customer.
 One version was programmed using Node.js (in 'With Node.js and MongoDB' folder) and another using Spring (in 'With Spring, Kotlin and MongoBD' folder), but both have the same functioning.
 
-![](https://img.shields.io/github/license/JordanBispo/Customer-Manager-API)
 ![](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
-![](https://img.shields.io/badge/Kotlin-0095D5?&style=for-the-badge&logo=kotlin&logoColor=white)
-![](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node-dot-js&logoColor=white)
+![](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![](https://img.shields.io/github/license/JordanBispo/Customer-Manager-API)
 
 ## Author
 <a href="https://jordanbispo.com.br">Jordan Rodrigo Souza Bispo</a>
